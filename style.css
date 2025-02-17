@@ -1,0 +1,117 @@
+@import url('../../external.html?link=https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background:#1d1c1c;
+    color: skyblue;
+}
+.top {
+    width: 100%;
+    height: 290px;
+    position: fixed;
+    top: 0;
+    background: rgb(49, 48, 48);
+}
+.top h2 {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+}
+.top p {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 29px;
+    clip-path: circle();
+}
+.top span {
+    color: skyblue;
+}
+.form {
+    width: 100%;
+    height:400px;
+    margin: 0 auto;
+    background: #1d1c1c;
+    margin-top: 65%;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.form input {
+    width: 83%;
+    padding: 18px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background:  rgb(49, 48, 48);
+    color: white;
+    border: none;
+}
+.form input:after {
+    border: green;
+}
+::placeholder {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.form button {
+    width: 92%;
+   height: 54px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+}
+.form p {
+    float: right;
+    padding-right: 20px;
+}
+.form p a {
+    text-decoration: none ;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cir{
+    width: 95%;
+    height: 90px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 60px;
+    border: 2px solid skyblue;
+}
+.cir h2 {
+    padding-left: 85px;
+    position: relative;
+    top: -89px;
+    
+}
+.cir p {
+    padding-left: 85px;
+    position: relative;
+    top: -109px;
+    font-size: 13px;
+}
+.cir img {
+    clip-path: circle();
+}
